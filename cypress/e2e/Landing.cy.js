@@ -2,6 +2,7 @@ import path from "path";
 import cities from "../../config/city-lists.json"
 
 describe("Landing Page Tests", () => {
+  
   beforeEach(() => {
     cy.visit("/");
   });
